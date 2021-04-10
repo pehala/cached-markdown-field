@@ -10,7 +10,7 @@ def read(*p):
 setup(
     name='cached_markdown_field',
     version='0.0.1',
-    packages=['test_app', 'cached_markdown_field'],
+    packages=['cached_markdown_field'],
     url='https://github.com/pehala/cached-markdown-field',
     license='MIT',
     author='Petr Hála',
