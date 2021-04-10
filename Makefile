@@ -12,4 +12,5 @@ bdist:
 dist: clean sdist bdist
 
 upload: dist
-	python setup.py sdist bdist upload
+	python setup.py sdist bdist
+	twine upload dist/*
